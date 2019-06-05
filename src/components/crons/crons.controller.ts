@@ -56,7 +56,7 @@ export class CronsController extends BaseController {
         }
     }
     async optOut(req, res, next) {
-        try {
+       /*  try {
             const resultMobile = await cronRepository.optOutMobile();
             const resultEmail = await cronRepository.optOutEmail();
 
@@ -92,23 +92,13 @@ export class CronsController extends BaseController {
             return this.sendResponse(res, true, 200, '', '');
         } catch (error) {
             return next(error);
-        };
+        }; */
     }
 
 
 }
 
-// const cronCtrl = new CronsController();
-const paymentCtrl = new PaymentController();
-// const voucherCtrl = new VoucherController();
-// const transactionCtrl = new TransactionController();
-// const job =
-cron.schedule("* 1 * * *", function () {
-    console.log("running a task Payment");
-    paymentCtrl.downloadFile('payment');
-    // voucherCtrl.downloadFile('voucher');
-    // transactionCtrl.downloadFile('transaction');
-});
+
 
 // console.log(job);
 
