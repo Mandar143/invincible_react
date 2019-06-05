@@ -1,0 +1,32 @@
+export interface SkuMaster {
+    id: number;
+    merchant_id: number;
+    sku: string;
+    material_category: string;
+    old_material_number: number;
+    procurement_group: string;
+    gender: number;
+    heel_type: string;
+    upper_material: string;
+    lining_material: string;
+    in_sole_material: string;
+    assortment_group: string;
+    material_description: string;
+    material_group: string;
+    x_plant_material_status: number;
+    description: string;
+    ext_material_group: number;
+    brand_id: number;
+    color_code: string;
+    color_number: number;
+    color_name: string;
+    size: number;
+    change_in_product_dimension:string;
+    item_type: number;
+    text_lab_or_engineering_office:string;
+    condition_amount:number;
+    created_by: number;
+    updated_by: number;
+    created_at: any;
+    updated_at: any;
+}
