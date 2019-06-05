@@ -16,10 +16,10 @@ export default {
     termsLink: "http://crocs.boomerup.com/terms-and-conditions",
     //database connection details
     database: {
-        host: 'boomer.c55jwccd5e2i.ap-south-1.rds.amazonaws.com',
-        user: 'web',
-        password: '7u8i9o0p',
-        database: 'crocs_loyalty_engine',
+        host: 'ec2-18-219-11-84.us-east-2.compute.amazonaws.com',
+        user: 'admin',
+        password: 'password',
+        database: 'invincible',
         connectionLimit: 10,
         port: 3306,
         // connectionLimit: 10,
