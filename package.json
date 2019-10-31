@@ -55,7 +55,7 @@
     "@types/cors": "^2.8.4",
     "@types/mocha": "2.2.41",
     "@types/node": "^10.7.1",
-    "eslint": "4.0.0",
+    "eslint": "6.6.0",
     "eslint-config-airbnb-base": "11.2.0",
     "eslint-plugin-import": "2.3.0",
     "eslint-plugin-promise": "3.5.0",
